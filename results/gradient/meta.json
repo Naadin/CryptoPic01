@@ -1,0 +1,18 @@
+{
+  "source": "gradient.png",
+  "aes_ctr_nonce_hex": "ec6f75418a818bcb",
+  "methods": [
+    "xor-xorshift32",
+    "aes-256-ecb",
+    "aes-256-ctr"
+  ],
+  "reversible": {
+    "xor": true,
+    "ecb": true,
+    "ctr": true
+  },
+  "sha256_before": "e2fffc74f37beea580f8cbb3fd76475b0841fe7e8061f2fe978eb05c696d99e6",
+  "sha256_after_xor": "e2fffc74f37beea580f8cbb3fd76475b0841fe7e8061f2fe978eb05c696d99e6",
+  "sha256_after_ecb": "e2fffc74f37beea580f8cbb3fd76475b0841fe7e8061f2fe978eb05c696d99e6",
+  "sha256_after_ctr": "e2fffc74f37beea580f8cbb3fd76475b0841fe7e8061f2fe978eb05c696d99e6"
+}

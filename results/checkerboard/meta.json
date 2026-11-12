@@ -1,0 +1,18 @@
+{
+  "source": "checkerboard.png",
+  "aes_ctr_nonce_hex": "f24362f4f7ada546",
+  "methods": [
+    "xor-xorshift32",
+    "aes-256-ecb",
+    "aes-256-ctr"
+  ],
+  "reversible": {
+    "xor": true,
+    "ecb": true,
+    "ctr": true
+  },
+  "sha256_before": "2e5152eb0523e98b7b1a3d948bb003cfc24cf45166de2c31b859698fdd7a6fa1",
+  "sha256_after_xor": "2e5152eb0523e98b7b1a3d948bb003cfc24cf45166de2c31b859698fdd7a6fa1",
+  "sha256_after_ecb": "2e5152eb0523e98b7b1a3d948bb003cfc24cf45166de2c31b859698fdd7a6fa1",
+  "sha256_after_ctr": "2e5152eb0523e98b7b1a3d948bb003cfc24cf45166de2c31b859698fdd7a6fa1"
+}
