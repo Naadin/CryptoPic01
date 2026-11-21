@@ -1,0 +1,20 @@
+{
+  "source": "dots.png",
+  "shape": [
+    594,
+    645,
+    3
+  ],
+  "algorithm_ctr": "aes-256-ctr",
+  "nonce_hex": "453bb92206cce4b4",
+  "ecb_tail_hex": "1598",
+  "sha256_orig_pixels": "54034e9ce05ccfec490bb57e4a50ff7ebd37aa7ca89abed17e351afa99fc1691",
+  "reversible": {
+    "xor": true,
+    "ecb": true,
+    "ctr": true
+  },
+  "sha256_restored_xor": "54034e9ce05ccfec490bb57e4a50ff7ebd37aa7ca89abed17e351afa99fc1691",
+  "sha256_restored_ecb": "54034e9ce05ccfec490bb57e4a50ff7ebd37aa7ca89abed17e351afa99fc1691",
+  "sha256_restored_ctr": "54034e9ce05ccfec490bb57e4a50ff7ebd37aa7ca89abed17e351afa99fc1691"
+}

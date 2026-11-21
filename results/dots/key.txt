@@ -1,0 +1,5 @@
+Algorithm: AES-256-CTR
+KEY1: pixels
+KEY2: pixelс
+NPCR: 99.6101%
+UACI: 33.4691%
