@@ -45,7 +45,7 @@ meta = json.loads(Path("results/dots/meta.json").read_text(encoding="utf-8"))
 nonce = bytes.fromhex(meta["nonce_hex"])
 
 enc_pix = load_pixels(Path("results/dots/ctr_sh.png"))
-# расшифрование
+# расшифровывание
 decrypted_bytes = ctr_decrypt(enc_pix.tobytes(), key="pixels", nonce=nonce)
 
 save_pixels(decrypted_bytes, tuple(meta["shape"]), Path("results/dots/ctr_dec.png"))
